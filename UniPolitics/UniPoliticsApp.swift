@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct UniPoliticsApp: App {
+    
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() //May want to inject a managed object context
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

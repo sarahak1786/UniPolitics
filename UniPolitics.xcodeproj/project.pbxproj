@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF17793329A2C6AA003523BC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17793229A2C6AA003523BC /* Settings.swift */; };
+		AF17793529A2C923003523BC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17793429A2C923003523BC /* Profile.swift */; };
+		AF17793729A2C92C003523BC /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17793629A2C92C003523BC /* Notifications.swift */; };
+		AF17793929A2C93B003523BC /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17793829A2C93B003523BC /* About.swift */; };
+		AF17793D29A2F7A9003523BC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17793C29A2F7A9003523BC /* Login.swift */; };
+		AF2702E329A1738600FE0D91 /* PredictionStance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2702E229A1738600FE0D91 /* PredictionStance.swift */; };
+		AF2702E529A19A5C00FE0D91 /* LearnStances.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2702E429A19A5C00FE0D91 /* LearnStances.swift */; };
+		AF2702E729A19A7600FE0D91 /* LearnIdeology.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2702E629A19A7600FE0D91 /* LearnIdeology.swift */; };
+		AF2702E929A19FE200FE0D91 /* LearnTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2702E829A19FE200FE0D91 /* LearnTopic.swift */; };
+		AF39078B29999831004BB3B1 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF39078A29999831004BB3B1 /* QRCode.swift */; };
+		AF672A2529A40B9400FAE7A3 /* ChangeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF672A2429A40B9400FAE7A3 /* ChangeProfile.swift */; };
+		AF88B53D299ABD0A006B8464 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B53C299ABD0A006B8464 /* Information.swift */; };
+		AF88B53F299AC39F006B8464 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B53E299AC39F006B8464 /* ImageSaver.swift */; };
+		AF88B545299ACC3B006B8464 /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B544299ACC3B006B8464 /* Learning.swift */; };
+		AF88B547299ACEDA006B8464 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B546299ACEDA006B8464 /* Welcome.swift */; };
+		AF88B549299ACF00006B8464 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B548299ACF00006B8464 /* HomePage.swift */; };
+		AF88B54B299B0E6E006B8464 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B54A299B0E6E006B8464 /* Prediction.swift */; };
+		AF88B54F299B1282006B8464 /* StanceCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF88B54E299B1282006B8464 /* StanceCalculator.mlmodel */; };
+		AF9C33102999A370004653A1 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AF9C330F2999A370004653A1 /* CodeScanner */; };
+		AF9C33122999A865004653A1 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C33112999A865004653A1 /* Friends.swift */; };
+		AF9C33152999AB8A004653A1 /* UniPolitics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF9C33132999AB8A004653A1 /* UniPolitics.xcdatamodeld */; };
+		AF9C33172999AF96004653A1 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C33162999AF96004653A1 /* DataController.swift */; };
+		AF9C33192999B38B004653A1 /* AddUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C33182999B38B004653A1 /* AddUser.swift */; };
 		AFB728A329984B69006A5C30 /* UniPoliticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB728A229984B69006A5C30 /* UniPoliticsApp.swift */; };
 		AFB728A529984B69006A5C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB728A429984B69006A5C30 /* ContentView.swift */; };
 		AFB728A729984B69006A5C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB728A629984B69006A5C30 /* Assets.xcassets */; };
 		AFB728AA29984B69006A5C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB728A929984B69006A5C30 /* Preview Assets.xcassets */; };
+		AFB728B329985030006A5C30 /* PoliticalSpectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB728B229985030006A5C30 /* PoliticalSpectrum.swift */; };
+		AFB728B529986E99006A5C30 /* PoliticalStance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB728B429986E99006A5C30 /* PoliticalStance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF17793229A2C6AA003523BC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AF17793429A2C923003523BC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AF17793629A2C92C003523BC /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		AF17793829A2C93B003523BC /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		AF17793C29A2F7A9003523BC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AF2702E229A1738600FE0D91 /* PredictionStance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionStance.swift; sourceTree = "<group>"; };
+		AF2702E429A19A5C00FE0D91 /* LearnStances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnStances.swift; sourceTree = "<group>"; };
+		AF2702E629A19A7600FE0D91 /* LearnIdeology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnIdeology.swift; sourceTree = "<group>"; };
+		AF2702E829A19FE200FE0D91 /* LearnTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTopic.swift; sourceTree = "<group>"; };
+		AF39078A29999831004BB3B1 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		AF672A2429A40B9400FAE7A3 /* ChangeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfile.swift; sourceTree = "<group>"; };
+		AF88B53C299ABD0A006B8464 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		AF88B53E299AC39F006B8464 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		AF88B544299ACC3B006B8464 /* Learning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
+		AF88B546299ACEDA006B8464 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		AF88B548299ACF00006B8464 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		AF88B54A299B0E6E006B8464 /* Prediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		AF88B54E299B1282006B8464 /* StanceCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StanceCalculator.mlmodel; sourceTree = "<group>"; };
+		AF9C33112999A865004653A1 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		AF9C33142999AB8A004653A1 /* UniPolitics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniPolitics.xcdatamodel; sourceTree = "<group>"; };
+		AF9C33162999AF96004653A1 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		AF9C33182999B38B004653A1 /* AddUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUser.swift; sourceTree = "<group>"; };
 		AFB7289F29984B69006A5C30 /* UniPolitics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniPolitics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB728A229984B69006A5C30 /* UniPoliticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniPoliticsApp.swift; sourceTree = "<group>"; };
 		AFB728A429984B69006A5C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFB728A629984B69006A5C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB728A929984B69006A5C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFB728B229985030006A5C30 /* PoliticalSpectrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalSpectrum.swift; sourceTree = "<group>"; };
+		AFB728B429986E99006A5C30 /* PoliticalStance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticalStance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9C33102999A370004653A1 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +85,16 @@
 		AFB7289629984B69006A5C30 = {
 			isa = PBXGroup;
 			children = (
+				AFB728A429984B69006A5C30 /* ContentView.swift */,
+				AF88B546299ACEDA006B8464 /* Welcome.swift */,
+				AF88B548299ACF00006B8464 /* HomePage.swift */,
+				AF88B544299ACC3B006B8464 /* Learning.swift */,
+				AFB728B229985030006A5C30 /* PoliticalSpectrum.swift */,
+				AF9C33112999A865004653A1 /* Friends.swift */,
+				AF88B54A299B0E6E006B8464 /* Prediction.swift */,
+				AF17793229A2C6AA003523BC /* Settings.swift */,
+				AF88B54E299B1282006B8464 /* StanceCalculator.mlmodel */,
+				AF9C33132999AB8A004653A1 /* UniPolitics.xcdatamodeld */,
 				AFB728A129984B69006A5C30 /* UniPolitics */,
 				AFB728A029984B69006A5C30 /* Products */,
 			);
@@ -52,7 +112,21 @@
 			isa = PBXGroup;
 			children = (
 				AFB728A229984B69006A5C30 /* UniPoliticsApp.swift */,
-				AFB728A429984B69006A5C30 /* ContentView.swift */,
+				AF9C33182999B38B004653A1 /* AddUser.swift */,
+				AF17793C29A2F7A9003523BC /* Login.swift */,
+				AF2702E429A19A5C00FE0D91 /* LearnStances.swift */,
+				AF2702E829A19FE200FE0D91 /* LearnTopic.swift */,
+				AF2702E629A19A7600FE0D91 /* LearnIdeology.swift */,
+				AFB728B429986E99006A5C30 /* PoliticalStance.swift */,
+				AF2702E229A1738600FE0D91 /* PredictionStance.swift */,
+				AF39078A29999831004BB3B1 /* QRCode.swift */,
+				AF9C33162999AF96004653A1 /* DataController.swift */,
+				AF88B53E299AC39F006B8464 /* ImageSaver.swift */,
+				AF17793429A2C923003523BC /* Profile.swift */,
+				AF672A2429A40B9400FAE7A3 /* ChangeProfile.swift */,
+				AF17793629A2C92C003523BC /* Notifications.swift */,
+				AF17793829A2C93B003523BC /* About.swift */,
+				AF88B53C299ABD0A006B8464 /* Information.swift */,
 				AFB728A629984B69006A5C30 /* Assets.xcassets */,
 				AFB728A829984B69006A5C30 /* Preview Content */,
 			);
@@ -83,6 +157,9 @@
 			dependencies = (
 			);
 			name = UniPolitics;
+			packageProductDependencies = (
+				AF9C330F2999A370004653A1 /* CodeScanner */,
+			);
 			productName = UniPolitics;
 			productReference = AFB7289F29984B69006A5C30 /* UniPolitics.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,9 @@
 				Base,
 			);
 			mainGroup = AFB7289629984B69006A5C30;
+			packageReferences = (
+				AF9C330E2999A370004653A1 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = AFB728A029984B69006A5C30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +217,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2702E929A19FE200FE0D91 /* LearnTopic.swift in Sources */,
+				AF17793929A2C93B003523BC /* About.swift in Sources */,
+				AF88B53D299ABD0A006B8464 /* Information.swift in Sources */,
+				AF88B547299ACEDA006B8464 /* Welcome.swift in Sources */,
+				AF2702E529A19A5C00FE0D91 /* LearnStances.swift in Sources */,
 				AFB728A529984B69006A5C30 /* ContentView.swift in Sources */,
+				AF9C33122999A865004653A1 /* Friends.swift in Sources */,
+				AF672A2529A40B9400FAE7A3 /* ChangeProfile.swift in Sources */,
+				AFB728B329985030006A5C30 /* PoliticalSpectrum.swift in Sources */,
+				AF9C33152999AB8A004653A1 /* UniPolitics.xcdatamodeld in Sources */,
+				AF9C33192999B38B004653A1 /* AddUser.swift in Sources */,
+				AF9C33172999AF96004653A1 /* DataController.swift in Sources */,
+				AF2702E729A19A7600FE0D91 /* LearnIdeology.swift in Sources */,
+				AF88B54F299B1282006B8464 /* StanceCalculator.mlmodel in Sources */,
+				AF2702E329A1738600FE0D91 /* PredictionStance.swift in Sources */,
+				AF88B54B299B0E6E006B8464 /* Prediction.swift in Sources */,
+				AF88B53F299AC39F006B8464 /* ImageSaver.swift in Sources */,
 				AFB728A329984B69006A5C30 /* UniPoliticsApp.swift in Sources */,
+				AF88B549299ACF00006B8464 /* HomePage.swift in Sources */,
+				AF88B545299ACC3B006B8464 /* Learning.swift in Sources */,
+				AF17793329A2C6AA003523BC /* Settings.swift in Sources */,
+				AF17793729A2C92C003523BC /* Notifications.swift in Sources */,
+				AF17793D29A2F7A9003523BC /* Login.swift in Sources */,
+				AF17793529A2C923003523BC /* Profile.swift in Sources */,
+				AFB728B529986E99006A5C30 /* PoliticalStance.swift in Sources */,
+				AF39078B29999831004BB3B1 /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,23 +368,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UniPolitics/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniPolitics/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniPolitics;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.Oculus.Meta.UniPolitics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,23 +404,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UniPolitics/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniPolitics/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UniPolitics;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.Oculus.Meta.UniPolitics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,6 +457,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF9C330E2999A370004653A1 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF9C330F2999A370004653A1 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF9C330E2999A370004653A1 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		AF9C33132999AB8A004653A1 /* UniPolitics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF9C33142999AB8A004653A1 /* UniPolitics.xcdatamodel */,
+			);
+			currentVersion = AF9C33142999AB8A004653A1 /* UniPolitics.xcdatamodel */;
+			path = UniPolitics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AFB7289729984B69006A5C30 /* Project object */;
 }
